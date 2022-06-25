@@ -11,6 +11,59 @@ public class AnimalEntity extends AbstractEntity {
     private Date dateOfBirth;
     private Double weightKg;
 
+    public  AnimalEntity(Integer escapeAttempts ){
+        this.escapeAttempts =  escapeAttempts;
+        System.out.println(this.getEscapeAttempts());
+    }
+
+    public AnimalEntity(Integer escapeAttempts, Integer speciesId, Integer ownersId, Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
+        this.escapeAttempts = escapeAttempts;
+        this.speciesId = speciesId;
+        this.ownersId = ownersId;
+        this.neutered = neutered;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.weightKg = weightKg;
+    }
+
+    public AnimalEntity(Integer speciesId, Integer ownersId, Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
+        this.speciesId = speciesId;
+        this.ownersId = ownersId;
+        this.neutered = neutered;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.weightKg = weightKg;
+    }
+
+    public AnimalEntity(Integer ownersId, Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
+        this.ownersId = ownersId;
+        this.neutered = neutered;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.weightKg = weightKg;
+    }
+
+    public AnimalEntity(Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
+        this.neutered = neutered;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.weightKg = weightKg;
+    }
+
+    public AnimalEntity(String name, Date dateOfBirth, Double weightKg) {
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.weightKg = weightKg;
+    }
+
+    public AnimalEntity(Date dateOfBirth, Double weightKg) {
+        this.dateOfBirth = dateOfBirth;
+        this.weightKg = weightKg;
+    }
+
+    public AnimalEntity(Double weightKg) {
+        this.weightKg = weightKg;
+    }
     //GETTER-SETTER
 
     public Integer getEscapeAttempts() {
