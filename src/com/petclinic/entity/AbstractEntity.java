@@ -1,13 +1,16 @@
 package com.petclinic.entity;
 
 public abstract class AbstractEntity {
-    private Integer id;
+    private Integer Id;
 
-    public Integer getId() {
-        return id;
+    public AbstractEntity(Integer id) {
+        Id = id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public Integer getId() {
+        return Id;
+    }
+    public void setId(Integer Id) {
+        this.Id = Id;
     }
 }

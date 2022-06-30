@@ -25,7 +25,7 @@ public class AnimalEntity extends AbstractEntity {
         this.dateOfBirth = dateOfBirth;
         this.weightKg = weightKg;
     }
-
+// oldu-tm
     public AnimalEntity(Integer speciesId, Integer ownersId, Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
         this.speciesId = speciesId;
         this.ownersId = ownersId;

@@ -1,9 +1,16 @@
 package com.petclinic.entity;
 
 
-public class Owner extends AbstractEntity {
+public class OwnerEntity extends AbstractEntity {
     private String fullName;
     private Integer age;
+
+    //CREATİNG CONSTRUCTOR
+
+    public OwnerEntity(String fullName, Integer age) {
+        this.fullName = fullName;
+        this.age = age;
+    }
 
     //GETTER-SETTER
     public String getFullName() {
