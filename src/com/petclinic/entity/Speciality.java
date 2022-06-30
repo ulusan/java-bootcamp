@@ -1,6 +1,6 @@
 package com.petclinic.entity;
 
-public class Species {
+public class Speciality {
 
     private int species_id;
 

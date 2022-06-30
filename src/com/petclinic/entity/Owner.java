@@ -1,7 +1,7 @@
 package com.petclinic.entity;
 
 
-public class OwnerEntity extends AbstractEntity {
+public class Owner extends AbstractEntity {
     private String fullName;
     private Integer age;
 
