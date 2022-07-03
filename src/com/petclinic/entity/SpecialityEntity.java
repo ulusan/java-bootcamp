@@ -1,17 +1,14 @@
 package com.petclinic.entity;
-
 public class SpecialityEntity {
 
     private Integer speciesId;
 
     private String name;
-
     //CONSTRUCTOR
     public SpecialityEntity(Integer speciesId, String name) {
         this.speciesId = speciesId;
         this.name = name;
     }
-
     public Integer getSpeciesId() {
         return speciesId;
     }

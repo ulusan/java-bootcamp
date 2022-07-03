@@ -1,8 +1,6 @@
 package com.petclinic.entity;
 
-
 import java.util.Date;
-
 public class VisitEntity {
     private int animalId;
     private int vetsId;
@@ -13,8 +11,6 @@ public class VisitEntity {
         this.vetsId = vetsId;
         this.visitDate = visitDate;
     }
-
-
     public int getAnimalId() {
         return animalId;
     }

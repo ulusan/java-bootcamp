@@ -25,46 +25,6 @@ public class AnimalEntity extends AbstractEntity {
         this.dateOfBirth = dateOfBirth;
         this.weightKg = weightKg;
     }
-// oldu-tm
-    public AnimalEntity(Integer speciesId, Integer ownersId, Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
-        this.speciesId = speciesId;
-        this.ownersId = ownersId;
-        this.neutered = neutered;
-        this.name = name;
-        this.dateOfBirth = dateOfBirth;
-        this.weightKg = weightKg;
-    }
-
-    public AnimalEntity(Integer ownersId, Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
-        this.ownersId = ownersId;
-        this.neutered = neutered;
-        this.name = name;
-        this.dateOfBirth = dateOfBirth;
-        this.weightKg = weightKg;
-    }
-
-    public AnimalEntity(Boolean neutered, String name, Date dateOfBirth, Double weightKg) {
-        this.neutered = neutered;
-        this.name = name;
-        this.dateOfBirth = dateOfBirth;
-        this.weightKg = weightKg;
-    }
-
-    public AnimalEntity(String name, Date dateOfBirth, Double weightKg) {
-        this.name = name;
-        this.dateOfBirth = dateOfBirth;
-        this.weightKg = weightKg;
-    }
-
-    public AnimalEntity(Date dateOfBirth, Double weightKg) {
-        this.dateOfBirth = dateOfBirth;
-        this.weightKg = weightKg;
-    }
-
-    public AnimalEntity(Double weightKg) {
-        this.weightKg = weightKg;
-    }
-    //GETTER-SETTER
 
     public Integer getEscapeAttempts() {
         return escapeAttempts;

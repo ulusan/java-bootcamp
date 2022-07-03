@@ -1,5 +1,4 @@
 package com.petclinic.entity;
-
 public class SpecializationEntity extends AbstractEntity {
     private int vetId;
     public SpecializationEntity(int vetId) {

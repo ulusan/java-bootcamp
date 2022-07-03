@@ -12,20 +12,9 @@ public class VetEntity extends AbstractEntity {
         this.name = name;
         this.dateOfGraduation = dateOfGraduation;
     }
-
-    public VetEntity(String name, Date dateOfGraduation) {
-        this.name = name;
-        this.dateOfGraduation = dateOfGraduation;
-    }
-
     public VetEntity(Date dateOfGraduation) {
         this.dateOfGraduation = dateOfGraduation;
     }
-
-    //a different option
-    /*public VetEntity(Date _dateOfGraduation) {
-        dateOfGraduation = _dateOfGraduation;
-    }*/
     //GETTER-SETTER
     public int getAge() {
         return age;
